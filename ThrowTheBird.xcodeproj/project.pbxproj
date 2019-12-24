@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85CB684522D74BDA004C8263 /* angryBirdClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = angryBirdClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CB684522D74BDA004C8263 /* ThrowTheBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThrowTheBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CB684822D74BDA004C8263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85CB684A22D74BDA004C8263 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		85CB684C22D74BDA004C8263 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		85CB683C22D74BDA004C8263 = {
 			isa = PBXGroup;
 			children = (
-				85CB684722D74BDA004C8263 /* angryBirdClone */,
+				85CB684722D74BDA004C8263 /* ThowTheBird */,
 				85CB684622D74BDA004C8263 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		85CB684622D74BDA004C8263 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85CB684522D74BDA004C8263 /* angryBirdClone.app */,
+				85CB684522D74BDA004C8263 /* ThrowTheBird.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85CB684722D74BDA004C8263 /* angryBirdClone */ = {
+		85CB684722D74BDA004C8263 /* ThowTheBird */ = {
 			isa = PBXGroup;
 			children = (
 				85CB684822D74BDA004C8263 /* AppDelegate.swift */,
@@ -70,15 +70,16 @@
 				85CB685722D74BDC004C8263 /* LaunchScreen.storyboard */,
 				85CB685A22D74BDC004C8263 /* Info.plist */,
 			);
-			path = angryBirdClone;
+			name = ThowTheBird;
+			path = ThrowTheBird;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85CB684422D74BDA004C8263 /* angryBirdClone */ = {
+		85CB684422D74BDA004C8263 /* ThrowTheBird */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85CB685D22D74BDC004C8263 /* Build configuration list for PBXNativeTarget "angryBirdClone" */;
+			buildConfigurationList = 85CB685D22D74BDC004C8263 /* Build configuration list for PBXNativeTarget "ThrowTheBird" */;
 			buildPhases = (
 				85CB684122D74BDA004C8263 /* Sources */,
 				85CB684222D74BDA004C8263 /* Frameworks */,
@@ -88,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = angryBirdClone;
-			productName = angryBirdClone;
-			productReference = 85CB684522D74BDA004C8263 /* angryBirdClone.app */;
+			name = ThrowTheBird;
+			productName = ThrowTheBird;
+			productReference = 85CB684522D74BDA004C8263 /* ThrowTheBird.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85CB684022D74BDA004C8263 /* Build configuration list for PBXProject "angryBirdClone" */;
+			buildConfigurationList = 85CB684022D74BDA004C8263 /* Build configuration list for PBXProject "ThrowTheBird" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85CB684422D74BDA004C8263 /* angryBirdClone */,
+				85CB684422D74BDA004C8263 /* ThrowTheBird */,
 			);
 		};
 /* End PBXProject section */
@@ -295,12 +296,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = angryBirdClone/Info.plist;
+				INFOPLIST_FILE = ThrowTheBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tutkubide.angryBirdClone;
+				PRODUCT_BUNDLE_IDENTIFIER = tutkubide.ThrowTheBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +313,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = angryBirdClone/Info.plist;
+				INFOPLIST_FILE = ThrowTheBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tutkubide.angryBirdClone;
+				PRODUCT_BUNDLE_IDENTIFIER = tutkubide.ThrowTheBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85CB684022D74BDA004C8263 /* Build configuration list for PBXProject "angryBirdClone" */ = {
+		85CB684022D74BDA004C8263 /* Build configuration list for PBXProject "ThrowTheBird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85CB685B22D74BDC004C8263 /* Debug */,
@@ -336,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85CB685D22D74BDC004C8263 /* Build configuration list for PBXNativeTarget "angryBirdClone" */ = {
+		85CB685D22D74BDC004C8263 /* Build configuration list for PBXNativeTarget "ThrowTheBird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85CB685E22D74BDC004C8263 /* Debug */,
